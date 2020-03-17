@@ -2,7 +2,7 @@
   "name": "gsap",
   "version": "1.0.0",
   "description": "gsap exercise",
-  "main": "beachball.js",
+  "main": "beachball.html",
   "scripts": {
     "start": "parcel *.html --open"
   },
