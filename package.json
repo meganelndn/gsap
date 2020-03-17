@@ -1,5 +1,5 @@
 {
-  "name": "gsap",
+  "name": "exercise1",
   "version": "1.0.0",
   "description": "gsap exercise",
   "main": "beachball.html",
@@ -8,11 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "gsap"
+    "url": "exercise1"
   },
   "author": "Mégane",
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "gsap": "^3.2.4"
   }
 }
