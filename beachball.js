@@ -4,16 +4,16 @@ import {
     gsap
 } from "gsap";
 
-var tl = gsap.timeline();
+const timeline = gsap.timeline();
 
-tl.to(".ball", {
+timeline.to(".ball", {
         x: 400,
         duration: 2,
         rotation: 200,
     })
-    .to(".spike", {
-        y: 20
-    })
     .to(".ball", {
-        y: 20
-    })
+        scale: 0,
+        x: 1000,
+        y: -2000,
+        duration: 2
+    });
